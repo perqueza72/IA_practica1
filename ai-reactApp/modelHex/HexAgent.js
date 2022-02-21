@@ -1,6 +1,6 @@
 const Agent = require('ai-agents').Agent;
 // import { play } from "./jaoeh";
-import {play} from "./minimax_secondheuristic";
+import { play } from "./heuristics/minimax_secondheuristic";
 
 class HexAgent extends Agent {
     constructor(value) {

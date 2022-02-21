@@ -1,4 +1,4 @@
-const minimax = require('./Minimax').minimax
+const minimax = require('../Minimax').minimax
 
 function play(board, player, depth) {
   return minimax(board, player, depth, heuristica);
