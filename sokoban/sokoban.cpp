@@ -336,8 +336,8 @@ int main()
   int MAX_ITERATION = 64;
 
   readInput(board, estadoActual);
-  resolveSokobanBFS(board, estadoActual);
   resolveSokobanDFS(board, estadoActual, MAX_ITERATION);
+  resolveSokobanBFS(board, estadoActual);
   resolveSokobanDFSIterativo(board, estadoActual, MAX_ITERATION);
 
   return 0;
